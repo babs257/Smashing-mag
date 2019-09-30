@@ -153,4 +153,36 @@ p {
   font-family: 'Times New Roman', Times, serif;
   padding-top: 10px;
 }
+/* Second container */
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+.mini-article {
+  width: 428px;
+  height: 650px;
+  padding: 30px;
+  background-color: lightgrey;
+}
+
+.red-box {
+  width: 856px;
+  height: 661px;
+  background-color: rgb(54, 53, 53);
+  border-radius: 11px;
+}
+
+.load-more {
+  text-align: center;
+  padding: 1em 0 5em;
+  width: 100%;
+  background-color: rgb(228, 226, 226);
+}
+
+.load-more a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
 /* footer */
