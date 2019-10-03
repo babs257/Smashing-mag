@@ -296,7 +296,7 @@ p {
   text-transform: uppercase;
   position: relative;
   top: 100px;
-  font-size: 30px;	
+  font-size: 25px;	
 }
 
 section.big-red-box {
@@ -335,4 +335,52 @@ button.white-button {
   bottom: 60px;
   left: 30px;
 }
+
+.mini-article2 {
+  width: 478px;
+  height: 650px;
+  padding: 30px;
+  background-color: lightgrey;
+}
+
+.red-box2 {
+  width: 800px;
+  height: 661px;
+  background-color: rgb(54, 53, 53);
+  border-radius: 11px;
+}
+
+.red-box2 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
 /* footer */
+.main-footer {
+  width: 1349px;
+  height: 600px;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding-top: 60px;
+  color: white;
+}
+
+.footer-topics {
+  width: 100%;
+  height: 300px;
+  padding-bottom: 20px;
+  background-color: darkgrey;
+  display: block;
+}
+
+.footer-links {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(78, 74, 74); 
+}
