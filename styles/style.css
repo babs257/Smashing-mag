@@ -115,7 +115,7 @@ li {
   background-color: rgb(78, 78, 78);
 }
 
-#post-container {
+.post-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -124,7 +124,7 @@ li {
   align-items: flex-start;
 }
 
-#posts {
+.posts {
   display: grid;
   width: 100%;
   grid-template-rows: 100%;
@@ -383,4 +383,8 @@ h4 {
   height: 300px;
   width: 100%;
   background-color: rgb(78, 74, 74); 
+}
+
+.hidden {
+  display: none;
 }
