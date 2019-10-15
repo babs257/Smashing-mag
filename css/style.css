@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+/* reset  */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 2px white solid;
+  font-size: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: georgia, 'times new roman', times, serif;
+  width: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* header */
+
+.navigation-bar {
+  display: inline-flex;
+  width: 100%;
+  height: 170px;
+}
+
+.nav1 {
+  background-color: rgb(100, 100, 100);
+  width: 16%;
+}
+
+.nav2,
+.nav3,
+.nav4,
+.nav5,
+.nav6 {
+  width: 14%;
+}
+
+.nav2-1,
+.nav3-1,
+.nav4-1,
+.nav5-1,
+.nav6-1 {
+  background-color: rgb(100, 100, 100);
+  height: 50%;
+}
+
+.nav2-2,
+.nav3-2,
+.nav4-2,
+.nav5-2,
+.nav6-2 {
+  background-color: rgb(50, 50, 50);
+  height: 30%;
+}
+
+.nav2-3,
+.nav3-3,
+.nav4-3,
+.nav5-3,
+.nav6-3 {
+  background-color: rgb(200, 200, 200);
+  height: 20%;
+}
+
+.nav7 {
+  background-color: rgb(150, 150, 150);
+  width: 16%;
+}
+
+/* main */
+
+.center-square {
+  position: absolute;
+  margin: 5% 37.5% 0 37.5%;
+  height: 100px;
+  width: 25%;
+  background-color: rgb(50, 50, 50);
+}
+
+.container1 {
+  width: 50%;
+  float: left;
+  background-color: rgb(100, 100, 100);
+  height: 650px;
+}
+
+.container2 {
+  width: 50%;
+  float: right;
+  background-color: rgb(100, 100, 100);
+  height: 650px;
+}
+
+.container3 {
+  width: 50%;
+  float: left;
+  background-color: rgb(100, 100, 100);
+  height: 650px;
+}
+
+.container4 {
+  width: 50%;
+  float: right;
+  background-color: rgb(100, 100, 100);
+  height: 650px;
+}
+
+.article1,
+.article2,
+.article3 {
+  width: 33.33%;
+  float: left;
+}
+
+.article1 h2,
+.article2 h2,
+.article3 h2 {
+  font-size: 32px;
+  padding: 20px;
+  color: rgb(50, 50, 50);
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.article1 h4,
+.article2 h4,
+.article3 h4 {
+  font-size: 12px;
+  padding: 10px 20px;
+  color: rgb(150, 150, 150);
+}
+
+.article1 p,
+.article2 p,
+.article3 p {
+  padding: 20px;
+  color: rgb(100, 100, 100);
+  line-height: 1.5em;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.container-left {
+  background-color: rgb(150, 150, 150);
+  height: 350px;
+  width: 33.33%;
+}
+
+.container-right {
+  width: 66.66%;
+  height: 650px;
+  background-color: rgb(50, 50, 50);
+}
+
+.h650 {
+  height: 650px;
+}
+
+.float-left {
+  float: left;
+}
+
+.big-square {
+  width: 66.66%;
+  height: 650px;
+  background-color: rgb(50, 50, 50);
+}
+
+.another-section {
+  width: 100%;
+  clear: both;
+  background-color: rgb(50, 50, 50);
+  height: 1030px;
+}
+
+.new-section {
+  width: 100%;
+  clear: both;
+  height: 350px;
+}
+
+.litle-square {
+  background-color: rgb(100, 100, 100);
+  height: 350px;
+  width: 33.33%;
+  float: left;
+}
+
+.text-section {
+  height: 350px;
+  width: 66.66%;
+  float: left;
+}
+
+.text-section h4 {
+  color: rgb(100, 100, 100);
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 20px;
+  line-height: 1.5em;
+}
+
+.text-section p {
+  color: rgb(100, 100, 100);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+.art-container {
+  height: 350px;
+  width: 50%;
+  float: left;
+}
+
+.art-pic {
+  width: 33.33%;
+  height: 50%;
+  background-color: rgb(150, 150, 150);
+  float: left;
+}
+
+.art-text-container {
+  width: 66.66%;
+  float: left;
+}
+
+.art-text-container h6 {
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(200, 200, 200);
+  padding: 10px 20px;
+}
+
+.art-text-container h3 {
+  color: rgb(100, 100, 100);
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.art-text-container p {
+  padding: 20px;
+  color: rgb(100, 100, 100);
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+.aside-section {
+  width: 100%;
+  clear: both;
+}
+
+.aside1 {
+  width: 100%;
+  background-color: rgb(100, 100, 100);
+  height: 350px;
+}
+
+.aside2 {
+  background-color: rgb(200, 200, 200);
+  height: 650px;
+  width: 33.33%;
+  float: left;
+}
+
+.h1030 {
+  height: 1030px;
+}
+
+.aside3 {
+  background-color: rgb(100, 100, 100);
+  height: 1030px;
+  width: 66.66%;
+  float: left;
+}
+
+/* footer */
+
+footer {
+  height: 650px;
+  width: 100%;
+  clear: both;
+}
+
+footer ul {
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-flex;
+  height: 50px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(100, 100, 100);
+  line-height: 1.5em;
+}
+
+.footer-text {
+  width: 50%;
+  font-size: 11px;
+  text-align: center;
+  margin: auto;
+  color: rgb(100, 100, 100);
+  line-height: 1.5em;
+  padding: 50px;
+}
