@@ -1,14 +1,22 @@
-# Smashing-mag
-This project involves creating a Heat map of smashing magazine homepage
+# Design Teardown [Collaborative Project]
+This is part of a series of projects to be completed by Microverse developer's program.<br>
+This project consists of building a heatmap of the [Smashing magazine](https://www.smashingmagazine.com/) website
 
-Technology used:
-HTML AND CSS
+You can find the original project specification [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown).
+# Live version
+The demo page can be found [here](#).
 
-Open your git bash and cd to the location you'd like to put your files the run the command below.
+# Built With
+HTML<br>
+CSS
 
-    git clone https://github.com/babs257/Smashing-mag.git
+# Contact
+Lucila Pastore - lucilapastore@gmail.com<br>
+Samuel Babatunde - babssam69@gmail.com<br>
+Project Link: https://github.com/babs257/Smashing-mag
 
-Here is the link to the live version of this project here
- https://babs257.github.io/
- The link to the repository used to make the project
- https://github.com/babs257?tab=repositories
+# Acknowledgements
+- Design and UX.<br>
+- Fonts and Typography.<br>
+- Flexbox.<br>
+- Floats.
