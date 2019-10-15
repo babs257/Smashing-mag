@@ -17,4 +17,6 @@ Project Link: https://github.com/babs257/Smashing-mag
 
 # Acknowledgements
 - Design and UX.<br>
-- Fonts and Typography.
+- Fonts and Typography.<br>
+- Flexbox.<br>
+- Floats.
