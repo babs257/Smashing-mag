@@ -4,7 +4,7 @@ This project consists of building a heatmap of the [Smashing magazine](https://w
 
 You can find the original project specification [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown).
 # Live version
-The demo page can be found [here](#).
+The demo page can be found [here]( https://babs257.github.io/Smashing-mag/).
 
 # Built With
 HTML<br>
